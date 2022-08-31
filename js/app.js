@@ -1,9 +1,5 @@
 
-const d = new Date();
-let day = d.getDate();
-let month = d.getMonth();
-let year = d.getFullYear();
-let hour = d.getHours();
+
 
 showdiary()
 let addbtn = document.getElementById("addbtn")
@@ -37,8 +33,6 @@ function showdiary() {
         <div class="diarycard my-2 mx-2" style="width: 23rem;">
         <div class="card-body">
           <h5 class="card-title">my diary ${index + 1}</h5>
-          <hr>
-          <div>${day}/${month}/${year}</div>
           <hr>
           <p id="coll"  class="card-text " >${element}</p>
           <button id="${index}" onclick="deletediary(this.id)" class="btn btn-primary">Delete</button>
