@@ -2,3 +2,28 @@
     overflow-wrap: break-word;
     overflow-y: visible;
 }
+
+.card-title{
+    text-align: center;
+}
+.card-date{
+    text-align: center;
+    font-size: 1em;
+}
+
+#title{
+    width: 100%;
+    border:1px solid black ;
+    border-radius:5px ;
+    margin-bottom: 2vh;
+    outline: none;
+    background-color: rgb(196 210 221);
+}
+#date1{
+    width: 100%;
+    border:1px solid rgb(47, 46, 46) ;
+    border-radius:5px ;
+    margin-bottom: 2vh;
+    outline: none;
+    background-color:rgb(141 162 178);
+}
