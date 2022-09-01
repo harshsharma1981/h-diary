@@ -78,7 +78,9 @@
             <div class="card-body" style="background-color: rgb(118, 130, 156);">
               <h5 class="card-title" style="color: white">Write Diary</h5>
               <div class="form-floating ">
-                <textarea class="form-control "  placeholder="Leave a comment here" id="addtxt" style="height: 23vh; background-color: rgb(185, 209, 249); padding: 0.60em 0.75em;"></textarea>
+                <input type="text" placeholder="title" id="title" maxlength="10" minlength="5" value="title" >
+                <input type="date" name="" id="date1" value="2022-09-01" >
+                <textarea class="form-control "  placeholder="write your diary here" id="addtxt" style="height: 23vh; background-color: rgb(185, 209, 249); padding: 0.60em 0.75em;"></textarea>
               </div>
               <button href="#" class="btn btn-primary my-3" id="addbtn" style="background-color: rgb(96, 138, 227); border:none; outline: none;"><i class="fa-solid fa-file-arrow-down" style="font-size:1.8em; "></i> Add Diary</button>
             </div>
@@ -101,3 +103,4 @@
     <script src="js/app.js"></script>
   </body>
 </html>
+
